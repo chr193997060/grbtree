@@ -3,6 +3,7 @@ package grbtree
 import "errors"
 
 var (
-	errKeyAlreadyExists = errors.New("key already exists")
-	errKeyNotExists     = errors.New("key no exists")
+	errKeyAlreadyExists = errors.New("KeyAlreadyExists")
+	errKeyNotExists     = errors.New("KeyNotExists")
+	errNotNode          = errors.New("NotNode")
 )
